@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{BC7B12E5-B19C-49A6-86C4-D4BB14125D37}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Loppemarked/Market/Controller/PrintHandler.cs">
+    <Files>
+      <File FileName="Loppemarked/Client.cs" Line="18" Column="15" />
+      <File FileName="Loppemarked/Market/Sale/Seller.cs" Line="64" Column="123" />
+      <File FileName="Loppemarked/Market/MarketPlaceFacade.cs" Line="188" Column="58" />
+      <File FileName="Loppemarked/Market/Customer/Customer.cs" Line="23" Column="35" />
+      <File FileName="Loppemarked/Market/Controller/PrintHandler.cs" Line="27" Column="28" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Loppemarked" expanded="True">
+            <Node name="Loppemarked" expanded="True">
+              <Node name="Market" expanded="True">
+                <Node name="Controller" expanded="True">
+                  <Node name="PrintHandler.cs" selected="True" />
+                </Node>
+                <Node name="Customer" expanded="True" />
+                <Node name="ProductFactory" expanded="True" />
+                <Node name="Sale" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Loppemarked PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

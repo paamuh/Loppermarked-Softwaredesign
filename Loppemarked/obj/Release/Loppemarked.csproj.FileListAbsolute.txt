@@ -1,0 +1,6 @@
+/Users/Benjamin/Documents/Eksamen/Loppemarked/Loppemarked/obj/Release/Loppemarked.csproj.CoreCompileInputs.cache
+/Users/Benjamin/Documents/Eksamen/Loppemarked/Loppemarked/bin/Release/Loppemarked.exe
+/Users/Benjamin/Documents/Eksamen/Loppemarked/Loppemarked/bin/Release/Loppemarked.pdb
+/Users/Benjamin/Documents/Eksamen/Loppemarked/Loppemarked/obj/Release/Loppemarked.exe
+/Users/Benjamin/Documents/Eksamen/Loppemarked/Loppemarked/obj/Release/Loppemarked.pdb
+/Users/Benjamin/Documents/Eksamen/Loppemarked/Loppemarked/obj/Release/Loppemarked.csprojAssemblyReference.cache

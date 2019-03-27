@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC7B12E5-B19C-49A6-86C4-D4BB14125D37}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Loppemarked</RootNamespace>
+    <AssemblyName>Loppemarked</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Threading.Tasks.Dataflow" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="Market\Controller\AttendantFactory.cs" />
+    <Compile Include="Market\Controller\IAttendantFactory.cs" />
+    <Compile Include="Market\Controller\Names.cs" />
+    <Compile Include="Market\Customer\ICustomer.cs" />
+    <Compile Include="Market\Sale\ISellers.cs" />
+    <Compile Include="Market\Sale\Seller.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Market\ProductFactory\Garden.cs" />
+    <Compile Include="Market\ProductFactory\IProduct.cs" />
+    <Compile Include="Market\ProductFactory\Kitchen.cs" />
+    <Compile Include="Market\ProductFactory\LivingRoom.cs" />
+    <Compile Include="Market\ProductFactory\Miscellaneous.cs" />
+    <Compile Include="Market\ProductFactory\ProductCategory.cs" />
+    <Compile Include="Market\ProductFactory\ProductFactory.cs" />
+    <Compile Include="Market\ProductFactory\Wearable.cs" />
+    <Compile Include="Market\MarketPlaceFacade.cs" />
+    <Compile Include="Market\Controller\PrintHandler.cs" />
+    <Compile Include="Market\Customer\Customer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Test.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
